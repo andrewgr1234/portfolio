@@ -1,0 +1,17 @@
+/*Fonts imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+/*font-family: 'MuseoModerno', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/*font-family: 'Oswald', sans-serif;*/
+
+
+/*End*/
+
+
+#test{
+    animation-name: jello;
+    animation-duration: 2s;
+    font-family: 'MuseoModerno', cursive
+}
