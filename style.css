@@ -11,6 +11,11 @@
 
 
 #test{
+    animation-name: animate__slideInLeft;
+    animation-duration: 3s;
+    
+    animation-delay: 0.5s;
+
     animation-name: jello;
     animation-duration: 2s;
     font-family: 'MuseoModerno', cursive
