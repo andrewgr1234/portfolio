@@ -6,6 +6,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: black;
 }
 
 #loader {
@@ -21,18 +22,42 @@ body {
   margin: auto;
 }
 
-main {
+/*main {
   display: none;
 }
 
-#navbar,
-h2,
-img,
-#intttro,
-button,
-p {
-  animation: fadeInDown;
-  animation-duration: 1s;
+li, a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  display: inline-block;
+  padding: 50px;
+  position: absolute;
+  top: 0.4em;
+  right:50px
+}*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: black;
+}
+
+li {
+  float: right;
+  color: black;
+  padding-right: 60px;
+  margin-top: 10px;
+  color: rgb(31, 157, 207);
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 #navbar {
@@ -46,6 +71,10 @@ p {
   bottom: 0;
 }
 
+.active {
+  color: rgb(111, 223, 185);
+}
+
 h2 {
   position: absolute;
   top: 0.4em;
@@ -55,8 +84,8 @@ h2 {
 img {
   width: 350px;
   position: absolute;
-  right: 20em;
-  top: 12.5em;
+  left: 60em;
+  top: -9em;
   border-radius: 50px;
 }
 
@@ -64,6 +93,10 @@ img {
   position: absolute;
   left: 20em;
   top: 20em;
+}
+
+#intro u {
+  color: rgb(111, 223, 185);
 }
 
 p {
